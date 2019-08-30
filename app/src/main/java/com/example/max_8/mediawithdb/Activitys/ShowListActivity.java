@@ -1,5 +1,4 @@
-package com.example.max_8.mediawithdb.Activitys;
-
+﻿package com.example.max_8.mediawithdb.Activitys;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;
