@@ -225,7 +225,6 @@ public class PlayActivity extends AppCompatActivity {
 
                 } catch (Exception e) {
                     e.printStackTrace();
-					notificationCompat.cancelAll();
                 }
             }
 
@@ -364,9 +363,10 @@ public class PlayActivity extends AppCompatActivity {
              }catch (NullPointerException e){}
 
         }
-      }
+      }else{
+            notificationMethod();  
     }
-
+	}
         @Override
     protected void onDestroy() {
             super.onDestroy();
