@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imageSong"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/audio"
+            android:cropToPadding="true"
+            android:layout_gravity="center"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            android:layout_marginTop="4dp"
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Song Title"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:id="@+id/songTitle"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+
+            >
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Artist Name"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:id="@+id/artist_Name"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/uploadSongGallory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Song "
+                android:textSize="16dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="No file selected"
+                android:id="@+id/txtViewSongFileSelected"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/uploadSong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/holo_orange_light"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

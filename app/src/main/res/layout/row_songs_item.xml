@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="346dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp"
+    android:background="@drawable/row_bg">
+
+
+<com.mikhaellopez.circularimageview.CircularImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/audio"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/imageView"
+    android:layout_marginTop="11dp"
+    app:civ_shadow="true"
+    app:civ_border_color="@android:color/black"
+    />
+
+  <TextView
+    android:layout_marginTop="165dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:text="Song title"
+    android:textSize="25dp"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:id="@+id/song_title"
+    android:textColor="@android:color/black"
+    />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="3:05"
+      android:textSize="20dp"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@+id/song_title"
+
+      android:textStyle="bold"
+      android:id="@+id/song_duration"
+      android:textColor="@android:color/holo_red_light"
+      android:layout_marginTop="8dp"
+      />
+
+  <ImageView
+      android:id="@+id/thumbnail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/song_duration"
+      android:layout_marginTop="8dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:src="@drawable/guitar" />
+</RelativeLayout>

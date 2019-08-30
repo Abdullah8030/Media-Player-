@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My MP</string>
+    <string name="title_activity_show_list">ShowListActivity</string>
+</resources>

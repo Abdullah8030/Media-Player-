@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCBD02</color>
+    <color name="colorPrimaryDark">#FCBD02</color>
+    <color name="colorAccent">#FCBD02</color>
+    <color name="BB">#494949</color>
+    <color name="B">#2d2d2d</color>
+
+</resources>
