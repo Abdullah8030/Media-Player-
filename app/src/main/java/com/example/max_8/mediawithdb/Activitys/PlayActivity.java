@@ -225,6 +225,7 @@ public class PlayActivity extends AppCompatActivity {
 
                 } catch (Exception e) {
                     e.printStackTrace();
+					notificationCompat.cancelAll();
                 }
             }
 
